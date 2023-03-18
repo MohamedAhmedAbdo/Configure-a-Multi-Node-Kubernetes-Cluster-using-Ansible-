@@ -2,8 +2,6 @@
 
 ## Project Stack.
 
-![alt text](https://github.com/mo7medsalah7/Install-Kubernetes-Cluster-Using-Ansible-and-Kubeadm/blob/main/diagrams/project_stack.png)
-
 ### Operatin System
 - **CentOS Stram 9** (Ansible Controller).
 - **Centos Stram 8** (Kubernetes Master Node).
@@ -32,21 +30,21 @@ Docker as container runtime has become deprecated to work with Kubernetes starti
 ### The roles are listed below:-
 - **All Nodes( Master and Workers)**
   – Install Kubectl, Kubelet and Kubeadm:-
-**https://github.com/mo7medsalah7/Ansible_Install_Kubeadm_Kubectl_Kubelet_Linux_Role**
+**https://github.com/MohamedAhmedAbdo/Ansible_Install_Kubeadm_Kubectl_Kubelet_Linux_Role.git**
 
   – Install Container Runtime Role
- **https://github.com/mo7medsalah7/Ansible_install_CRIO_Role**
+ **https://github.com/MohamedAhmedAbdo/Ansible_install_CRIO_Role**
 
 - **Master Node Only**
   – Install Master Node Role
-**https://github.com/mo7medsalah7/Ansible_Kubeadm_K8S_Master_Role**
+**https://github.com/MohamedAhmedAbdo/Ansible_Kubeadm_K8S_Master_Role**
 
   – Install CNI Plugin (Flannel)
-**https://github.com/mo7medsalah7/Ansible_install_CNI_Kubeadm_Role**
+**https://github.com/MohamedAhmedAbdo/Ansible_install_CNI_Kubeadm_Role**
 
 - **Worker Node only**
   – Install Worker Node Role
-**https://github.com/mo7medsalah7/Ansible_Worker_Nodes_Role**
+**https://github.com/MohamedAhmedAbdo/Ansible_Worker_Nodes_Role**
 
 # Verification
 - Go to the Master Node and run the following command.
