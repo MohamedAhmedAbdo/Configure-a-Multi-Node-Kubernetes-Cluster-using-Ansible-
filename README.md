@@ -30,7 +30,7 @@ Docker as container runtime has become deprecated to work with Kubernetes starti
 ### The roles are listed below:-
 - **All Nodes( Master and Workers)**
   – Install Kubectl, Kubelet and Kubeadm:-
-**https://github.com/MohamedAhmedAbdo/Ansible_Install_Kubeadm_Kubectl_Kubelet_Linux_Role.git**
+**https://github.com/MohamedAhmedAbdo/Ansible_Install_Kubeadm_Kubectl_Kubelet_Linux_Role**
 
   – Install Container Runtime Role
  **https://github.com/MohamedAhmedAbdo/Ansible_install_CRIO_Role**
@@ -50,4 +50,4 @@ Docker as container runtime has become deprecated to work with Kubernetes starti
 - Go to the Master Node and run the following command.
  - `kubectl get nodes`
 
-![alt text](https://github.com/mo7medsalah7/Install-Kubernetes-Cluster-Using-Ansible-and-Kubeadm/blob/main/diagrams/verification.png)
+![alt text](https://github.com/MohamedAhmedAbdo/Configure-a-Multi-Node-Kubernetes-Cluster-using-Ansible-/blob/main/diagrams/verification.png)
